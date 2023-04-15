@@ -1,0 +1,9 @@
+@import "./styles/variable.css";
+
+body {
+  margin: 0;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
