@@ -1,19 +1,12 @@
-import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
-import Car from "../components/Car";
+import React from "react";
+import HeroSection from "../components/HeroSection";
+import PlanTrip from "../components/PlanTrip";
 
 const Home = () => {
   return (
     <div>
-      {/* <Canvas>
-        <OrbitControls enableZoom={false} />
-        <PerspectiveCamera makeDefault position={[100, 1000, 500]} />
-        <ambientLight intensity={1} />
-        <Suspense fallback={null}>
-          <Car />
-        </Suspense>
-      </Canvas> */}
+      <HeroSection />
+      <PlanTrip />
     </div>
   );
 };

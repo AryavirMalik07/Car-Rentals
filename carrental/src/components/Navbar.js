@@ -6,7 +6,7 @@ import Car from "../components/Car";
 import "../styles/nav.css";
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar max-width">
       <div className="nav-logo">
         <div className="car-logo">
           <Canvas>

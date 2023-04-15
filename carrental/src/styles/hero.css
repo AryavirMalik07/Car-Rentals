@@ -1,0 +1,55 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: ; */
+}
+.hero-head-small {
+  font-size: 2.4rem;
+}
+.hero-primary-head {
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+.hero-primary-head strong {
+  color: var(--primary-orange);
+}
+.hero-description {
+  font-size: 1.6rem;
+}
+
+.button-div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.book-ride {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: var(--primary-orange);
+}
+.learn-more {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: var(--text-color);
+}
+
+.hero-right {
+  /* background-color: rebeccapurple; */
+  width: 60rem;
+  height: 100rem;
+}
