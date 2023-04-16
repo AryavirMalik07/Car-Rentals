@@ -1,5 +1,8 @@
 @import "./styles/variable.css";
 @import "./styles/commonClass.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   margin: 0;
