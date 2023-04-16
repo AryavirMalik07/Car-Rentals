@@ -6,6 +6,7 @@ import TagSection from "../components/TagSection";
 import PickCar from "../components/PickCar";
 import Testimonial from "../components/Testimonial";
 import Reviews from "../components/TestimonialData";
+import Faq from "../components/Faq";
 // import Faqs from "../components/Faqs";
 
 function data(val) {
@@ -25,7 +26,7 @@ const Home = () => {
       <PlanTrip />
       <PickCar />
       <TagSection />
-      <div className="testimonial ">
+      <div className="testimonial max-width ">
         <div className="testimonial-intro">
           <h3>Reviewed by People</h3>
           <h1>Client's Testimonials</h1>
@@ -38,6 +39,7 @@ const Home = () => {
         </div>
         <div className="test">{Reviews.map(data)}</div>
       </div>
+      <Faq />
 
       {/* <Faqs /> */}
     </div>

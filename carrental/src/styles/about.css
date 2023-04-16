@@ -1,0 +1,45 @@
+.aboutus {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: center;
+  height: 80vh;
+}
+.about-content {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35rem;
+}
+.about-content h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.about-content h1 {
+  font-size: 4.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.about-content p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--gray-text);
+}
+.book-banner-head {
+  font-size: 4.2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.book-banner {
+  background: linear-gradient(#2d2d2d94, #2d2d2d94),
+    url("../images/book-banner.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+}
+.book-banner-head strong {
+  color: var(--primary-orange);
+}

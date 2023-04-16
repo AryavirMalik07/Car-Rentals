@@ -23,27 +23,27 @@ const Navbar = () => {
       <div className="nav-items">
         <ul className="nav-list">
           <li className="nav-list-items">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/">
               Home
             </Link>
           </li>
           <li className="nav-list-items">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/about">
               About
             </Link>
           </li>
           <li className="nav-list-items">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/testimonial">
               Testimonials
             </Link>
           </li>
           <li className="nav-list-items">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/vehicle">
               Vehicles
             </Link>
           </li>
           <li className="nav-list-items">
-            <Link className="nav-link" to="#">
+            <Link className="nav-link" to="/contact">
               Contact Us
             </Link>
           </li>

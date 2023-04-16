@@ -1,0 +1,112 @@
+.faq {
+  background: #fff;
+  height: fit-content;
+}
+.faq-section {
+  background-image: url("/src/images/audi.jpeg");
+  padding: 10rem 0;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 10rem; */
+  color: #000;
+}
+.faq-content_title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80rem;
+  line-height: 1.5;
+}
+.faq-smal {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.faq-big {
+  font-size: 4.2rem;
+  font-weight: bold;
+  margin-bottom: 1.7rem;
+}
+/* .faq-content_title h5 {
+  font-size: 2.2rem;
+  font-weight: 500;
+} */
+/* .faq-content_title h2 {
+  font-size: 4.2rem;
+  font-weight: bold;
+  margin-bottom: 1.7rem;
+} */
+.faq-text {
+  font-size: 1.6rem;
+  color: var(--gray-text);
+  margin-bottom: 10rem;
+}
+/* .faq-content_title p {
+  font-size: 1.6rem;
+  color: var(--gray-text);
+} */
+
+.all-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.faq-box {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  background-color: white;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+  width: 80rem;
+  cursor: pointer;
+}
+.faq-box__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+  padding: 1.8rem 4.5rem;
+  transition: 0.15s ease;
+}
+.faq-box__question p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.faq-box__question i {
+  font-size: 2rem;
+  /* color: #000; */
+}
+
+.faq-box__answer {
+  font-size: 1.8rem;
+  /* font-family: $text-font; */
+  color: var(--gray-text);
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease;
+  padding: 0 4.5rem;
+}
+
+.active-answer {
+  max-height: 20rem;
+  padding: 2.8rem 4.5rem;
+  transition: 0.4s ease;
+}
+
+.active-question {
+  background-color: var(--primary-orange);
+  color: white;
+  box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+}
