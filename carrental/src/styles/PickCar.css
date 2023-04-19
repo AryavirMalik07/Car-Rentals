@@ -82,7 +82,7 @@
   width: 25rem;
 }
 .pick-description__price {
-  width: 85%;
+  width: 100%;
   background-color: var(--primary-orange);
   font-size: 1.8rem;
   display: flex;
@@ -126,7 +126,7 @@
   background-color: var(--primary-orange);
   padding: 1rem 1rem;
   display: flex;
-  width: 85%;
+  width: 100%;
   justify-content: center;
   margin-top: 1.4rem;
   transition: all 0.3s;

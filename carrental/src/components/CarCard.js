@@ -4,7 +4,7 @@ const CarCard = (props) => {
   return (
     <div>
       <h1>{props.name}</h1>
-      <h4>{props.model}</h4>
+      <h4>{props.models}</h4>
     </div>
   );
 };

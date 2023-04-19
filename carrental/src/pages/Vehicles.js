@@ -1,27 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import CarCard from "../components/CarCard";
 import Users from "../components/CarCardData";
 import PageHero from "../components/PageHero";
 import Table from "../components/Table";
 
 function data(val) {
-  return <CarCard name={val.model} model={val.model} />;
+  return <CarCard name={val.model} models={val.price} />;
 }
 const Vehicles = () => {
+  const [query, setQuery] = useState("");
+  const search = (data) => {
+    return data.filter((item) => item.name.toLowerCase().include(query));
+  };
   return (
-    <div>
+    <>
       <PageHero heading="Vehicles" subheading="Home/Vehicles" />
-      {/* <div>
-        <input
-          type=""
-          className="search-product"
-          placeholder="Search"
-          // onChange={SearchHandler}
-        />
-        {Users.map(data)}
-      </div> */}
-      <Table />
-    </div>
+
+      {Users.map(data)}
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ const Users = [
   {
     id: 1,
     // img: img1,
-    model: "Audi A1",
+    model: "Bmw A1",
     price: "$45",
   },
   {
