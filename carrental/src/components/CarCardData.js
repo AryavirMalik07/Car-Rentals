@@ -24,5 +24,17 @@ const Users = [
     model: "Audi A1",
     price: "$45",
   },
+  {
+    id: 5,
+    img: img,
+    model: "Audi A1",
+    price: "$45",
+  },
+  {
+    id: 6,
+    img: img,
+    model: "Audi A1",
+    price: "$45",
+  },
 ];
 export default Users;
