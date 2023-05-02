@@ -21,6 +21,7 @@ const Login = () => {
           id="password"
           autoComplete="off"
           placeholder="your password"
+          className="bg-slate"
         />
 
         <div className="form-group form-button">
